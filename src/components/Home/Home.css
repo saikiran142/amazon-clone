@@ -20,3 +20,13 @@
   margin-bottom: -250px;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
+
+@media screen and (max-width: 500px) {
+  .home__row {
+    display: block;
+    z-index: 1;
+  }
+  .home__image {
+    display: none;
+  }
+}

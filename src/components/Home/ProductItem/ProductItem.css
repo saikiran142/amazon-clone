@@ -9,7 +9,17 @@
   padding: 20px;
   width: 100%;
   min-height: 400px;
-  min-width: 100px;
+  min-width: 300px;
+}
+
+@media screen and (max-width: 500px) {
+  .productItem {
+    display: block;
+    width: 100%;
+    min-height: 400px;
+    max-width: 300px;
+    margin: 5px;
+  }
 }
 
 .productItem > img {
